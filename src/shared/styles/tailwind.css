@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* OVERRIDE ELEMENT PLUS PRIMARY COLOR TO ORANGE */
+:root {
+  --el-color-primary: #f97316; /* Orange-500 */
+  --el-color-primary-light-3: #fdba74;
+  --el-color-primary-light-5: #fed7aa;
+  --el-color-primary-light-7: #ffedd5;
+  --el-color-primary-light-8: #fff7ed;
+  --el-color-primary-light-9: #fff7ed;
+  --el-color-primary-dark-2: #ea580c;
+}
+
+/* Biar body tetap clean */
+body {
+    background-color: #f8fafc; /* Slate-50 */
+    font-family: 'Inter', sans-serif;
+}
